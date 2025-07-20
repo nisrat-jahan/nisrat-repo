@@ -74,6 +74,41 @@
     font-weight: bold;
     font-size: 45;
 }
+.img-item{
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    gap: 5px;
+    align-items: center;
+    margin-left: 40px;
+}
+.img-item-2{
+    border: 1px solid tomato;
+    border-radius: 8px;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    max-width: 150px;
+    height: 150px;
+    padding: 10px;
+}
+
+.para{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(66, 66, 66, 1);
+}
+
+.para-2{
+   color: rgba(114, 114, 114, 1);
+    font-size: 16px; 
+}
+.images-3{
+    display: grid;
+    grid-template-columns: repeat(5 ,1fr);
+    margin-left: 60px;
+}
+
+
 @media screen and {
     
     
